@@ -1,0 +1,33 @@
+{
+  "name": "nodeintro",
+  "version": "1.0.0",
+  "description": "An intro to node.js and related tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fringie/nodejs.git"
+  },
+  "author": "Zain Hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fringie/nodejs/issues"
+  },
+  "homepage": "https://github.com/Fringie/nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-change": "^1.0.0",
+    "gulp-changed": "^3.1.0",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-notify": "^3.0.0",
+    "morgan": "^1.8.2",
+    "pug": "^2.0.0-rc.2",
+    "request": "^2.81.0"
+  }
+}

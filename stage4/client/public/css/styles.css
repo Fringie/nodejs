@@ -1,0 +1,8 @@
+body{
+  margin-top: 50px;
+  font-family: arial, helvetica, sans-serif;
+}
+textarea, input{
+  display:block;
+  margin-bottom: 20px;
+}

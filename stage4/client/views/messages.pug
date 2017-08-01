@@ -1,0 +1,10 @@
+extends layout
+
+
+block content
+  h1= mainHeading
+  ul
+    each message in results
+      li
+        h2= message.name
+        p= message.msg

@@ -1,0 +1,23 @@
+{
+  "name": "nodeintro",
+  "version": "1.0.0",
+  "description": "An intro to node.js and related tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fringie/nodejs.git"
+  },
+  "author": "Zain Hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fringie/nodejs/issues"
+  },
+  "homepage": "https://github.com/Fringie/nodejs#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  }
+}

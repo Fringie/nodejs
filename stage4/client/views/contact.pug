@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= mainHeading
+    form(action="/send", method="POST")
+      input(type="text", name="user[name]")
+      input(type="text", name="user[email]")
+      textarea(name="user[msg]")
+      button(type="submit", class="bla") Send

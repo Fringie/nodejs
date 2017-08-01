@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= mainHeading
+  a(href='/') Users
+  ul
+    each user in results
+      li= user.name
+        ul
+          each thing in user.things
+            li= thing
